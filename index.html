@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vul hier je titel in</title>
+</head>
+<body>
+    <div id="container">
+        <form action="doelbestand.php" method="post">
+            Voornaam: <input type="text" name="vnaam" placeholder="Voornaam" /><br>
+            Achternaam: <input type="text" name="anaam" placeholder="Achternaam" /><br>
+            Datetime-local <input type="text" name="Datetime-local" placeholder="Datetime-local" /><br>
+            Time <input type="time" name="time" placeholder="time" /><br>
+            Week <input type="week" name="week" placeholder="week" /><br>
+            Month <input type="month" name="month" placeholder="month" /><br>
+            Country <input id="country" type="text" name="country" size="40" list="countries" />
+            <datalist id="countries">
+                <option value="Australia">
+                <option value="Canada">
+                <option value="Germany">
+                <option value="France">
+                <option value="United Kingdom">
+                <option value="United States">
+                <option value="Netherlands">
+            </datalist>
+            Number <input type="number" min="5" max="100" step="5" value="10"><br>
+            E-mail <input type="email" name="email" required toe /><br>
+            File <input type="file" name="file" /><br>
+            Color <input type="color" name="color" /><br>
+            Range <input type="range" min="1" max="10" /><br>
+            <input type="submit" />  
+        </form>
+    </div>
+</body>
+</html>
